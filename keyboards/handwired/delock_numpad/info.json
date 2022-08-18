@@ -1,0 +1,36 @@
+{
+    "keyboard_name": "delock numpad handwired",
+    "url": "",
+    "maintainer": "puzon",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"NMLK", "x":2.5, "y":0},
+                {"label":"/", "x":3.5, "y":0},
+                {"label":"*", "x":4.5, "y":0},
+                {"label":"Bcksp", "x":5.5, "y":0},
+                
+                {"label":"7", "x":2.5, "y":1},
+                {"label":"8", "x":3.5, "y":1},
+                {"label":"9", "x":4.5, "y":1},
+                {"label":"-", "x":5.5, "y":1},
+                
+                {"label":"4", "x":2.5, "y":2},
+                {"label":"5", "x":3.5, "y":2},
+                {"label":"6", "x":4.5, "y":2},
+                {"label":"+", "x":5.5, "y":2},
+                
+                {"label":"1", "x":2.5, "y":3},
+                {"label":"2", "x":3.5, "y":3},
+                {"label":"3", "x":4.5, "y":3},
+                {"label":"Ent", "x":5.5, "y":3},
+                
+                {"label":"0", "x":2.5, "y":4},
+                {"label":"Ins", "x":3.5, "y":4},
+                {"label":",", "x":4.5, "y":4},
+
+                {"label":"Space", "x":0, "y":3}
+            ]
+        }
+    }
+}
