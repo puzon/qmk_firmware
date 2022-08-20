@@ -47,6 +47,13 @@ enum {
     BT_HST3,
 #endif
     BAT_LVL,
+
+#ifdef RGB_MATRIX_ENABLE
+		KC_RGB1,
+		KC_RGB2,
+		KC_RGB3,
+		KC_RGB4,
+#endif
 };
 
 

@@ -125,6 +125,29 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             }
             break;
 #endif
+
+#ifdef RGB_MATRIX_ENABLE
+        case KC_RGB1:
+            if (record->event.pressed) {
+                rgb_matrix_mode(RGB_MATRIX_SOLID_MULTISPLASH);
+            }
+            return false; // Skip all further processing of this key
+        case KC_RGB2:
+            if (record->event.pressed) {
+                rgb_matrix_mode(RGB_MATRIX_SOLID_REACTIVE_MULTINEXUS);
+            }
+            return false; // Skip all further processing of this key
+        case KC_RGB3:
+            if (record->event.pressed) {
+                rgb_matrix_mode(RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE);
+            }
+            return false; // Skip all further processing of this key
+        case KC_RGB4:
+            if (record->event.pressed) {
+                rgb_matrix_mode(RGB_MATRIX_SOLID_REACTIVE_SIMPLE);
+            }
+            return false; // Skip all further processing of this key
+#endif
         default:
 #ifdef FACTORY_RESET_CHECK
             FACTORY_RESET_CHECK(keycode, record);
